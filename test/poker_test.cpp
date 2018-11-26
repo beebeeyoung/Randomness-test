@@ -39,7 +39,7 @@ namespace test{
             V+=patterns[i]*patterns[i];
         }
         V*=(1<<m); V/=N; V-=N;
-        P=igamc(((1<<m)-1)>>1, V/2);
+        P=igamc(((1<<m)-1)/2.0, V/2.0);
 
         cout<<"Poker test:"<<endl;
         cout<<"    n   = "<<n<<endl;
